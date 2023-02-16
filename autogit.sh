@@ -1,6 +1,6 @@
 git add -A 
-git commit -m "Stop Moment: JS Versions"
+git commit -m "Stop Moment: JS Variables"
 git push -u origin main
 git status
 
-# time: 15:30
+# time: 27:02
