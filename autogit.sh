@@ -1,6 +1,6 @@
 git add -A 
-git commit -m "Stop Moment: JS Arrays Practice"
+git commit -m "Stop Moment: Module 2 Introduction"
 git push -u origin main
 git status
 
-# time: 59:37
+# time: 1:05:51
