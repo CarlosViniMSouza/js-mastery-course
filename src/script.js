@@ -1,4 +1,4 @@
-/* Examples:
+// Examples:
 
 const objectTest = {
     name: 'Carlos',
@@ -18,14 +18,14 @@ let vehicles = [
 
 console.log(`Printing the second element of the third array: ${vehicles[5][1]}`);
 
+// For HTML files
 var textExample = false;
 
 function showResult() {
     document.write(`txtExample is of type ${typeof(textExample)}`);
 }
 
-*/
-
+// Lessons
 var animals = ['cat', 'dog', 'duck', 'hedgehog'];
 
 animals.push('bird');
@@ -38,3 +38,20 @@ console.log(animals.splice(1, 2));
 
 console.log(animals.sort());
 // output: [ 'bird', 'cat', 'hedgehog' ]
+
+// Booleans, Operators, Selection:
+
+/* get started with 'false' by default */
+var happy = true;
+
+if (happy) {
+    function userEmotionalState() {
+        // do something if happy is 'true'
+        document.write(`The User is Happy!`);
+    }
+} else {
+    // do something if happy is 'false'
+    function userEmotionalState() {
+        document.write(`The User is Sad!`);
+    }
+}
