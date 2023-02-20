@@ -31,17 +31,11 @@ var animals = ['cat', 'dog', 'duck', 'hedgehog'];
 animals.push('bird');
 
 console.log(animals);
-// output: [ 'cat', 'dog', 'duck', 'hedgehog', 'bird' ]
-
 console.log(animals.splice(1, 2));
-// output: [ 'dog', 'duck' ]
-
 console.log(animals.sort());
-// output: [ 'bird', 'cat', 'hedgehog' ]
 
 // Booleans, Operators, Selection:
 
-/* get started with 'false' by default */
 var happy = true;
 
 if (happy) {
@@ -54,4 +48,22 @@ if (happy) {
     function userEmotionalState() {
         document.write(`The User is Sad!`);
     }
+}
+
+const myNumber = 12;
+const otherNumber = 22;
+
+if (myNumber === otherNumber) {
+    console.log(`${myNumber} is equal to ${otherNumber}`);
+} else {
+    console.log(`${myNumber} is different to ${otherNumber}`);
+}
+
+const modelCars = ['Common', 'S.U.V.', 'Pick UP', 'Premium', 'Classic'];
+let myModelCar = modelCars[1];
+
+if (myModelCar != modelCars[1]) {
+    console.log('It\'s Not my model car favorite!');
+} else {
+    console.log('It\'s my model car favorite!');
 }
