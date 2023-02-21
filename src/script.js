@@ -87,3 +87,9 @@ switch (myModelCar) {
     default:
         console.log('Something is wrong!');
 }
+
+// Loops
+
+for (var i = 1; i < modelCars.length + 1; i++) {
+    console.log(`Model num. ${i}: ${modelCars[i - 1]}`);
+}
