@@ -1,5 +1,5 @@
 git add -A 
-git commit -m "Stop Moment: For .. Of Loop"
+git commit -m "Stop Moment: Structured Programming - P1"
 git push -u origin main
 git status
 

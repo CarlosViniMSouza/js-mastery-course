@@ -1,15 +1,5 @@
 // Examples:
 
-const objectTest = {
-    name: 'Carlos',
-    age: 22,
-    student: true,
-    jobs: [
-        'Full Stack Developer', 
-        'Software Engineer (in coming)'
-    ],
-}
-
 let vehicles = [
     "commons", ["chevrolet", "fiat", "peugeot"],
     "suv", ["toyota", "jeep", "chevrolet"],
@@ -17,6 +7,8 @@ let vehicles = [
 ];
 
 console.log(`Printing the second element of the third array: ${vehicles[5][1]}`);
+
+console.log('\n');
 
 // For HTML files
 var textExample = false;
@@ -33,6 +25,8 @@ animals.push('bird');
 console.log(animals);
 console.log(animals.splice(1, 2));
 console.log(animals.sort());
+
+console.log('\n');
 
 // Booleans, Operators, Selection:
 
@@ -59,6 +53,8 @@ if (myNumber === otherNumber) {
     console.log(`${myNumber} is different to ${otherNumber}`);
 }
 
+console.log('\n');
+
 const modelCars = ['Common', 'S.U.V.', 'Pick UP', 'Premium', 'Classic'];
 let myModelCar = modelCars[3];
 
@@ -67,6 +63,8 @@ if (myModelCar != modelCars[1]) {
 } else {
     console.log('It\'s my model car favorite!');
 }
+
+console.log('\n');
 
 switch (myModelCar) {
     case 'Common': 
@@ -88,8 +86,25 @@ switch (myModelCar) {
         console.log('Something is wrong!');
 }
 
+console.log('\n');
+
 // Loops
 
-for (var i = 1; i < modelCars.length + 1; i++) {
+for (var i = 1; i < modelCars.length + 1; i++) { // for any data types
     console.log(`Model num. ${i}: ${modelCars[i - 1]}`);
+}
+
+console.log('\n');
+
+for (var model of modelCars) { // specifically for working with arrays
+    console.log(`Model current: ${model}`);
+}
+
+console.log('\n');
+
+let count = 1;
+
+while (count <= modelCars.length) {
+    console.log(`Model num. ${count}: ${modelCars[count - 1]}`);
+    count++;
 }
