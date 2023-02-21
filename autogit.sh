@@ -1,6 +1,6 @@
 git add -A 
-git commit -m "Stop Moment: Working with Arrays"
+git commit -m "Stop Moment: For .. Of Loop"
 git push -u origin main
 git status
 
-# time: 2:10:29
+# time: 2:14:43
