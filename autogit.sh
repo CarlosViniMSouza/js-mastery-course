@@ -1,6 +1,6 @@
 git add -A 
-git commit -m "Stop Moment: JS Basic Challenges"
+git commit -m "Stop Moment: JS Functions"
 git push -u origin main
 git status
 
-# time: 2:58:27
+# time: 3:03:21
