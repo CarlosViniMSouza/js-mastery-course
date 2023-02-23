@@ -123,3 +123,9 @@ var formatsText = ['.txt', '.md', '.json', '.xml', '.html'];
 for (let eachString of formatsText) {
     console.log(`${myStringTest} ${eachString}`);
 }
+
+console.log("\n");
+
+for (let eachString in formatsText) {
+    console.log(`Type formatting: ${formatsText[eachString]}`);
+}
