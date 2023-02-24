@@ -129,3 +129,15 @@ console.log("\n");
 for (let eachString in formatsText) {
     console.log(`Type formatting: ${formatsText[eachString]}`);
 }
+
+console.log('\n');
+
+// functions:
+function upLetters() {
+    var oneString = "a message to up!";
+
+    console.log(`String normal: ${oneString}`);
+    console.log(`String special: ${oneString.toUpperCase()}`);
+}
+
+upLetters();
