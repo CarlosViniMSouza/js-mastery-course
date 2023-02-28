@@ -132,6 +132,20 @@ for (let eachString in formatsText) {
 
 // Functions
 
+console.log('\n');
+
+// functions:
+function upLetters() {
+    var oneString = "a message to up!";
+
+    console.log(`String normal: ${oneString}`);
+    console.log(`String special: ${oneString.toUpperCase()}`);
+}
+
+upLetters();
+
+console.log('\n');
+
 function returnSum(value1, value2) {
     console.log(`\nThe sum is: ${value1 + value2}`);
 }

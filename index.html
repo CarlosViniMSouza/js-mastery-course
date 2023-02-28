@@ -20,6 +20,25 @@
     </div>
 
     <script src="./src/script.js" async defer>
+        function checkNum() {
+            var userNumInput = prompt("Please enter your num:");
+
+            if (userNumInput <= 100) {
+                console.log("Number less than 100");
+
+                for (let i = 0; i < 100; i++) {
+                    console.log(`Here is a ${i}`);
+                }
+            }
+
+            else if (user >= 99) {
+                console.log('You inserted a big number!');
+            }
+
+            else {
+                console.log('ERROR!');
+            }
+        }
     </script>
 </body>
 </html>
