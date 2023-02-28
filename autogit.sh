@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 git add -A 
-git commit -m "Stop Moment: JS Useful Example - P01"
+git commit -m "Readme updated"
 git push -u origin main
 git status
 

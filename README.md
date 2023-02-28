@@ -21,10 +21,10 @@ Courser Material : https://drive.google.com/file/d/1UNSy2rxJb1-rXo-CsIeYRfv2j-HG
 ✅ 0:50:48 JavaScript Arrays
 ✅ 1:05:50 Module Introduction 
 ✅ 1:06:42 Working With the Code Editor 
-❓ 1:26:59 Operators Booleans and Selection Statements in JavaScript
-2:04:05 Loops in JavaScript 
-2:33:56 Sequence Selection and Loop
-3:03:28 Functions in javaScript 
+✅ 1:26:59 Operators Booleans and Selection Statements in JavaScript
+✅ 2:04:05 Loops in JavaScript 
+✅ 2:33:56 Sequence Selection and Loop
+❓ 3:03:28 Functions in javaScript 
 3:47:17 Module Introduction 
 3:48:23 JavaScript and the DOM
 4:42:07 capturing events with JavaScript 
