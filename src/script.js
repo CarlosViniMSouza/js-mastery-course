@@ -129,3 +129,11 @@ console.log("\n");
 for (let eachString in formatsText) {
     console.log(`Type formatting: ${formatsText[eachString]}`);
 }
+
+// Functions
+
+function returnSum(value1, value2) {
+    console.log(`\nThe sum is: ${value1 + value2}`);
+}
+
+returnSum(5, 2);
