@@ -1,6 +1,6 @@
 git add -A 
-git commit -m "Next Topic: JS Functions | Steps 2-4"
+git commit -m "Next Topic: JS Functions | More on functions"
 git push -u origin main
 git status
 
-# https://youtu.be/xc3a_CJhjCc?t=12201
+# Starting in: https://youtu.be/xc3a_CJhjCc?t=13037
