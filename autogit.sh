@@ -1,6 +1,6 @@
 git add -A 
-git commit -m "Readme updated"
+git commit -m "Next Topic: JS Functions | Steps 2-4"
 git push -u origin main
 git status
 
-# time: 3:16:59
+# https://youtu.be/xc3a_CJhjCc?t=12201
